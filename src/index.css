@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-surface: #FAF9F6;
+  --color-text-main: #2C2C2C;
+  --color-text-muted: #5A5A5A;
+  --color-border-light: #E5E5E5;
+  --color-brand: #D97757;
+  --color-brand-hover: #C26446;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
